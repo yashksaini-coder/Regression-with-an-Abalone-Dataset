@@ -71,7 +71,7 @@ predictions = xgb_model.predict(test)
 submission = pd.read_csv('playground-series-s4e4/sample_submission.csv')
 
 submission['Rings'] = predictions
-submission.to_csv('submission.csv', index=False)
+submission.to_csv('submission2.csv', index=False)
 
 
 
